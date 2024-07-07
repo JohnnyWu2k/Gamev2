@@ -191,7 +191,7 @@ def main_menu():
 
 def start_new_game():
     global player_pos, player_health, player_score, current_level, player_inventory, maps
-    map_files = ["map1.txt", "map2.txt"]
+    map_files = ["4.txt", "map2.txt"]
     maps = []
     for map_file in map_files:
         with open(os.path.join(maps_dir, map_file), "r") as f:
